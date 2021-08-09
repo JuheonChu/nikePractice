@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.section{
+   height : 700px;
+   background-color: white;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top : 120px;
+   padding-top : 20px;
+}
+
+.image-section{
+   width : 50%;
+   float: left;
+}
+
+.detail-section{
+   width : 40%;
+   float: right;
+}
+
+.price{
+   font-size:15px;
+   float : right;
+   font-weight: bold;
+}
+
+.explain{
+   font-size:15px;
+   float : left;
+}
+
+.detail-name{
+   font-size : 25px;
+   font-weight: 900;
+   padding-bottom : 50px;
+   border-bottom : 1px solid #e5e5e5;
+   width : 100%;
+}
+
+#purchase, #bucket{
+   width : 100%;
+   margin : 10px;
+}
+
+.detail-explain{
+   padding : 30px;
+   font-size : 13px;
+}
+
+#quantity{
+   width : 30px;
+   border : none;
+   font-size : 18px;
+   font-weight: 400;
+}
+
+#size{
+   width : 100px;
+   border : none;
+   font-size : 18px;
+   font-weight: 400;
+}
+
+#plus, #minus{
+   padding : 10px 20px;
+   font-size : 22px;
+   font-weight: bold;
+   background-color: white;
+   border : none;
+   margin-right: 10px;
+}

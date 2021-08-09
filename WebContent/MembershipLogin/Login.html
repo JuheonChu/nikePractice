@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+<style>
+	.login-wrap{
+		text-align:center;
+	}
+	
+	.body{
+		text-align:center;
+	}
+	.login-wrap .header-login{
+		margin-bottom:40px;
+	}
+</style>
+
+</head>
+<body>
+	<form action = "../NikeactionController?command=login" method = "post">
+		<div class = "login-wrap">
+			<div class = "header-login">
+				<span class = "logo">
+					<a href="../index.jsp"><img src=".././images/logo.png"/></a>
+				</span>
+				<h2 class = "title">나이키 로그인</h2>
+			</div>
+		</div>
+		
+		<div class = "body">
+			<input type = "text" placeholder="아이디" name = "id" style = "margin-right:-23px; width:300px;"/><br/><br/>
+			<input type = "password" placeholder="비밀번호" name = "pw" style = "margin-right:-23px; width:300px;"/><br/><br/>
+				<div>
+					<input type = "submit" value = "로그인" class = "btn btn-primary" style = "margin-right:-23px; width:300px;"/>
+				</div><br/>
+				
+			<div class="form4">
+						<label>
+							<input type="checkbox">아이디저장
+						</label> 
+						<label>
+							<input type="checkbox">보안접속
+						</label>
+							
+						<div class="clear"></div>
+						<label><input type="button" value="회원가입"
+							class="btn btn-danger" style="margin-right: -23px; width:300px;"
+							onClick="location.href='SignUp.html'" />
+						</label><br/> 
+						<label style="margin-right:-23px;">
+						<input type="button" class="btn btn-primary" value="아이디 찾기" style="width:150px;" onClick="location.href='findID.jsp'" />
+						<input type="button" class="btn btn-primary" value="비밀번호 찾기" style="width:150px;" onClick="location.href='findPW.jsp'"/>
+						</label>
+			</div>
+		</div>
+	
+	
+	</form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입을 해보자.</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+	body > form {
+		width:500px;
+		margin:50px auto;
+		box-shadow: 0px 0px 20px #afafaf;
+	    padding: 40px 40px 60px 40px;
+	    border-radius: 30px;
+	    font:cursive;
+	}
+	.fr {
+		float:right;
+	}
+	
+	.signup-wrap{
+		text-align:center;
+	}
+	
+	.body{
+		text-align:center;
+	}
+	.login-wrap .header-signup{
+		margin-bottom:40px;
+	}
+	
+	.buttons{
+		display:grid;
+	}
+	
+	.signupbody{
+		text-align:center;
+	}
+	
+	input[type=text]{
+		border-radius:5px;
+	}
+	
+</style>
+
+
+<body>
+
+<div class = "signup-wrap">
+			<div class = "header-signup">
+				<span class = "logo">
+					<a href="./index.jsp"><img src=".././images/logo.png"/></a>
+				</span>
+				<h2 class = "title">나이키 회원가입</h2>
+			</div>
+		</div>
+
+<form action="../NikeactionController?command=signup" method="post" name = 'frm' onsubmit = "return confirm('Do you really want to proceed signing up your account?')">
+	<div class = "signupbody">
+		이름: <input type = "text" name = "name"/><br/><br/>
+		ID: <input type = "text" name = "id"/><br/><br/>
+		PW: <input type = "text" name = "pw"/><br/><br/>
+		연락처: <input type = "text" name = "poc"/><br/><br/>
+		주소: <input type = "text" name = "address"/><br/><br/>
+	</div>
+
+	<div class = "buttons">
+	<input type="button" value="뒤로" class="btn btn-primary"  id = "back"/>
+	<input type="submit"  class="btn btn-info fr" style="margin-top:20px;" value="작성" />
+	</div>
+</form>
+
+<script>
+	
+	$("#back").click(function(e) {
+	    e.preventDefault();
+	    history.back(1);
+	});
+	
+	//alert("회원가입하시겠습니까?")
+	
+</script>
+</body>
+</html>

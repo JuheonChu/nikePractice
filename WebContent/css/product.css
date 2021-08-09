@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+.product-name {
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.product-explain {
+	color: #8d8d8d;
+	font-size: 15px;
+}
+
+.product-price {
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.text-color-primary-dark {
+	color: #111;
+	text-transform: capitalize;
+}
+
+.section-header h1 {
+	font-size: 22px;
+}
+
+td {
+	padding: 0px;
+}
+
+.product {
+	width: 30%;
+	vertical-align:top;
+	display:inline-block;
+	padding: 10px;
+	
+}
+
+.product img {
+	width: 100%;
+	height:auto;
+	
+}
+
+.proList{
+	width:auto;
+	height:auto;
+	vertical-align:top;
+}
+
+.proList a {
+	text-decoration: none;
+	color: black;
+}
+
+.proList a:hover {
+	text-decoration: none;
+	color: black;
+}

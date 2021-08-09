@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body{
+	margin: 0px;
+	padding : 0px;
+}
+
+.header{
+	background-color: white;
+}
+
+.subMenu{
+	border-bottom : 1px solid #e5e5e5;
+	height: 38px;
+	align-items: center;
+}
+
+.cart{
+	padding : 0px !important; 
+}
+
+.others{
+	list-style: none;
+	margin : 0px;
+	padding : 0px;
+	float : left;
+	height: 38px;
+	padding-top : 5px;
+}
+
+.others li{
+	display : inline;
+	margin: 0px;
+	padding : 10px 30px;
+	border-right: 1px solid #e5e5e5;
+	
+}
+
+.others li a{
+	text-decoration: none;
+	font-size: 12px;
+	color : #8d8d8d;
+	
+}
+.others li a:hover{
+	color : black;
+	
+}
+
+.userMenu{
+	list-style: none;
+	margin : 0px;
+	padding : 0px;
+	margin-right : 20px;
+	float : right;
+	padding-top : 5px;
+	height: 38px;
+	width: 410px;
+}
+
+.userMenu li{
+	display : inline;
+	margin: 0px;
+	padding : 5px 10px;
+}
+
+.userMenu li a{
+	text-decoration: none;
+	font-size: 12px;
+	color : #8d8d8d;
+}
+.userMenu li a:hover{
+	color : black;
+}
+
+.logo a img{
+	width : 60px;
+	height: 28px;
+}
+
+.menu{
+	height: 70px;
+	border-bottom: 1px solid #e5e5e5;
+	width : 100%;
+	margin: 0 auto;
+    padding: 0 32px 0 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo{
+	display: flex;
+    width: 194px;
+    height: 70px;
+    padding: 15px 0;
+    text-align: left;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-size: 28.05px;
+    align-items: center;
+    float: left;
+}
+
+.mainMenu{
+	list-style: none;
+	margin : 0px auto;
+	padding : 0px;
+	width: calc(100% - 418px);
+	text-align: center;
+	vertical-align: middle;
+	height: 26px;
+}
+
+.mainMenu li{
+	display: inline;
+	margin: 0px auto;
+	padding : 20px 10px;
+}
+
+
+.mainMenu li a{
+	text-decoration: none;
+	font-size : 15px;
+	font-weight: bold;
+	color : black;
+	padding-bottom : 25px;
+	
+}
+.mainMenu li a:hover{
+	border-bottom: 1.5px solid black;
+}
+
+.searchBar{
+	border: 1px solid #e5e5e5;
+	outline: none;
+}
+
+#searchIcon{
+	background: url(../images/search.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	border: 0;
+}
