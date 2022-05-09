@@ -29,7 +29,7 @@ public class Sort_Action implements Action{
 		
 		String type = request.getParameter("type");
 		String gender = request.getParameter("gender");
-		System.out.println("sorting방법은? " + sort);//합격 개잘들어옴
+		System.out.println("sorting방법은? " + sort);
 		
 		ProductDAO dao = ProductDAO.getInstance();
 		ArrayList <ProductDTO> product = (ArrayList<ProductDTO>)request.getAttribute("product");
